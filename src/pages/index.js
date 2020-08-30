@@ -1,5 +1,14 @@
 import React from "react"
+import Greetings from "../components/Greetings"
+import Navigation from "../components/Navigation"
+import Social from "../components/Social"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <div className="container">
+      <Greetings />
+      <Navigation />
+      <Social />
+    </div>
+  )
 }

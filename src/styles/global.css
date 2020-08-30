@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ubuntu&display=swap");
+
+.container {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 12rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting-wrapper {
+  display: flex;
+}
+
+.greeting-suffix {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.greeting-content {
+  font-size: 40px;
+  font-family: "Caveat", cursive;
+}
+
+.button-wrapper {
+  margin-top: 20px;
+  display: inline-flex;
+}
+
+.button-projects {
+  text-decoration: none;
+  color: black;
+  outline: none;
+  padding: 5px;
+  background: coral;
+  margin-right: 5px;
+}
+
+.button-services {
+  text-decoration: none;
+  color: black;
+  outline: none;
+  padding: 5px;
+  background: cornflowerblue;
+  margin-right: 5px;
+}
+
+.button-skills {
+  text-decoration: none;
+  color: black;
+  outline: none;
+  padding: 5px;
+  background: crimson;
+  margin-right: 5px;
+}
+
+.social-wrapper {
+  margin-top: 20px;
+  display: inline-flex;
+}
+
+.mr-1 {
+  margin-right: 2rem;
+}
+
+.mr-2 {
+  margin-right: 5rem;
+}
