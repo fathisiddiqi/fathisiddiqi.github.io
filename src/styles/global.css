@@ -66,3 +66,22 @@
 .mr-2 {
   margin-right: 5rem;
 }
+
+@media (max-width: 575.98px) {
+  .container {
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .greeting-suffix {
+    font-size: 32px;
+    margin-right: 20px;
+  }
+
+  .greeting-content {
+    font-size: 32px;
+    font-family: "Caveat", cursive;
+  }
+}
