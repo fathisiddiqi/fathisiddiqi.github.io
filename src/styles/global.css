@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ubuntu&display=swap");
 
-.container {
+.container-wrapper {
   font-family: "Ubuntu", sans-serif;
   margin-top: 12rem;
   margin-left: 3rem;
@@ -68,20 +68,21 @@
 }
 
 @media (max-width: 575.98px) {
-  .container {
+  .container-wrapper {
     font-family: "Ubuntu", sans-serif;
+    margin-left: 0.3rem;
     margin-top: 15rem;
     display: flex;
     flex-direction: column;
   }
 
   .greeting-suffix {
-    font-size: 32px;
+    font-size: 23px;
     margin-right: 20px;
   }
 
   .greeting-content {
-    font-size: 32px;
+    font-size: 23px;
     font-family: "Caveat", cursive;
   }
 }

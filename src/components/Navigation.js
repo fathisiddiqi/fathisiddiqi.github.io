@@ -4,13 +4,13 @@ import { Link } from "gatsby"
 const Navigation = () => {
   return (
     <div className="button-wrapper">
-      <Link to="/" className="button-projects">
+      <Link to="/projects" className="button-projects text-white">
         My Projects
       </Link>
-      <Link to="/" className="button-services">
+      <Link to="/service" className="button-services text-white">
         Use my service
       </Link>
-      <Link to="/" className="button-skills">
+      <Link to="/skill" className="button-skills text-white">
         My skills
       </Link>
     </div>
