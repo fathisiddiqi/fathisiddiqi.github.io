@@ -12,7 +12,7 @@ const Greetings = () => {
               "<span style='color: crimson'>I'm Muhammad Fathi</span>",
               "<span style='color: coral'>I'm Software Engineer</span>",
               "<span style='color: coral'>I'm Backend Engineer</span>",
-              "<span style='color: cornflowerblue'>I'm Freelancer</span>",
+              "<span style='color: cornflowerblue'>I'm Startup Enthutiast</span>",
             ],
             autoStart: true,
             loop: true,

@@ -11,7 +11,7 @@ const Navigation = () => {
         Use my service
       </Link>
       <Link to="/skill" className="button-skills text-white">
-        My skills
+        My Portofolio
       </Link>
     </div>
   )

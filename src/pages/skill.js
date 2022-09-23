@@ -17,6 +17,20 @@ const Skill = () => {
         alt=""
         className="object-scale-down h-48 w-full"
       />
+      <p className="mt-40 text-center text-bold">
+        See my LinkedIn for more info
+      </p>
+      <a
+        href="https://www.linkedin.com/in/fathisiddiqi/"
+        className="text-center"
+      >
+        <img
+          height="32"
+          width="32"
+          className="mx-auto mt-2"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"
+        />
+      </a>
     </div>
   )
 }
